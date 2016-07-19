@@ -1,0 +1,15 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+div{
+    border:1px solid black;
+}
+.row{
+    height:300px;
+}
+.col-md-12,.col-md-4{
+    height: 300px;
+}
