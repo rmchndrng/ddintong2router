@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import {Router, ActivatedRoute, UrlTree, UrlPathWithParams} from '@angular/router';
+import {Router, ActivatedRoute, UrlTree, UrlPathWithParams, ROUTER_DIRECTIVES} from '@angular/router';
 import {UrlSegment} from '@angular/router/src/url_tree';
 @Component({
   moduleId: module.id,
   selector: 'app-p1',
   templateUrl: 'p1.component.html',
-  styleUrls: ['p1.component.css']
+  styleUrls: ['p1.component.css'],
+  directives:[ROUTER_DIRECTIVES]
 })
 export class P1Component implements OnInit {
 
