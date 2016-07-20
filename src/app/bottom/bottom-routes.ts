@@ -16,5 +16,5 @@ export const BottomRoutes: RouterConfig = [
     },
     { path: 'b2', component: B2Component, outlet: 'bottom' },
     { path: 'b3', component: B3Component, outlet: 'bottom' },
-    { path: '**', redirectTo: 'b1', outlet: 'bottom' },
+    { path: '**', redirectTo: 'b1', outlet: 'bottom' }
 ];
